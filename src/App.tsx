@@ -1,9 +1,8 @@
+import AlgorithmVisualizer from "./pages/AlgorithmVisualizer"
 
 function App() {
   return (
-    <>
-      <p>Algorithm Viewer</p>
-    </>
+    <AlgorithmVisualizer />
   )
 }
 
