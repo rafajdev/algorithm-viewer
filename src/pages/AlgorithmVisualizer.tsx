@@ -15,7 +15,6 @@ export default function AlgorithmVisualizer() {
       '
 		>
 			<Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
-			<p className='text-white'>Algorithm Viewer</p>
 		</main>
 	)
 }
