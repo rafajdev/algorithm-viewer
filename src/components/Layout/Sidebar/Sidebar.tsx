@@ -16,7 +16,7 @@ export default function Sidebar(props: SidebarProps) {
 				></div>
 			)}
 			<nav
-				className={`bg-[#12121a] fixed top-0 left-0 h-dvh w-72 z-50 transition-transform duration-300 md:w-120 md:relative md:translate-x-0 ${props.isOpen ? 'translate-x-0' : '-translate-x-full'}`}
+				className={`bg-[#12121a] fixed top-0 left-0 h-dvh w-74 z-50 transition-transform duration-300 md:w-120 md:relative md:translate-x-0 ${props.isOpen ? 'translate-x-0' : '-translate-x-full'}`}
 			>
 				<NavbarButton isOpen={props.isOpen} onClick={() => props.setIsOpen(!props.isOpen)} />
 				<SidebarHeader />
